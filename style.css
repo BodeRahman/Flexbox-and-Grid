@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    background-color: hsl(0, 0%, 90%);
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+.content-head {
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+.content{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 1em 2em;
+    border-radius: 40%;
+}
+
+.grid-link {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.grid-link button {
+    background-color: red;
+    font-weight: bold;
+}
+
+.grid-link a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+      width: 100%;
+    }
+  }

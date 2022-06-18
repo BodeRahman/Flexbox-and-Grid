@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1a1c28;
+  display: flex;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "a a b"
+    "c d d"
+    "c e e";
+  gap: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+main div {
+  padding: 2em;
+  text-align: center;
+}
+
+.red {
+  background-color: #eb5020;
+  grid-area: a;
+  height: 50px;
+}
+
+.yellow {
+  background-color: #ffa401;
+  grid-area: b;
+  height: 50px;
+}
+
+.green {
+  background-color:  #05aa42;
+  grid-area: c;
+  height: 100px;
+}
+
+.blue {
+  background-color: #01aefd;
+  grid-area: d;
+  height: 10px;
+}
+
+.blue-2 {
+  background-color:#01aefd;
+  grid-area: e;
+  height: 10px;
+}
